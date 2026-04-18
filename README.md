@@ -38,35 +38,6 @@ python3 --version
 pip install boto3
 ```
 
----
-
-## 🔐 AWS Configuration
-
-Configure your AWS credentials:
-
-```bash
-aws configure
-```
-
-Provide:
-
-* AWS Access Key
-* AWS Secret Key
-* Region (e.g., `ap-south-1`)
-
----
-
-## ⚙️ Setup
-
-Open the script file and update:
-
-```python
-REGION = "your-region"
-INSTANCE_ID = "your-ec2-instance-id"
-```
-
----
-
 ## ▶️ Run the Script
 
 ```bash
