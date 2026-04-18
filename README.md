@@ -38,14 +38,6 @@ python3 --version
 pip install boto3
 ```
 
-## ▶️ Run the Script
-
-```bash
-python3 tally-server.py
-```
-
----
-
 ## 🖥️ Menu Options
 
 ```
@@ -61,20 +53,7 @@ python3 tally-server.py
 
 * RDP works only when the EC2 instance is in **running** state
 * Public DNS must be available
-* For Linux users, install RDP client:
 
-```bash
-sudo apt install freerdp2-x11
-```
-
----
-
-## ⚠️ Security
-
-* Do **NOT** hardcode AWS credentials in the script
-* Use `aws configure` or IAM roles
-
----
 
 ## 📁 Project Structure
 
@@ -84,13 +63,3 @@ tally-server/
  ├── tally-server.bat
  └── README.md
 ```
-
----
-
-## ✅ Future Improvements
-
-* Add RDS support
-* Convert into CLI tool
-* Add web interface
-
----
