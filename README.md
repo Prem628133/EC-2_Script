@@ -1,6 +1,6 @@
 # Tally Server Control Script
 
-A simple Python script to control an AWS EC2 instance (Start, Stop, and RDP connect), similar to a Windows `.bat` script.
+A simple Python script to control an AWS EC2 instance (Start, Stop, and RDP connect), similar to a Windows `.py` script.
 
 ---
 
@@ -9,7 +9,7 @@ A simple Python script to control an AWS EC2 instance (Start, Stop, and RDP conn
 * Start EC2 instance
 * Stop EC2 instance
 * Connect via RDP using Public DNS
-* Simple CLI menu (same as `.bat` version)
+* Double click on the file to start the script.
 
 ---
 
@@ -52,14 +52,13 @@ pip install boto3
 ## 🧠 Notes
 
 * RDP works only when the EC2 instance is in **running** state
-* Public DNS must be available
 
 
 ## 📁 Project Structure
-
+## Use only single file --As per usecase (If u have DNS use "tally-server_with_dns.py"  && If you don't have DNS "tally-server.py")
 ```
-tally-server/
- ├── tally-server.py
- ├── tally-server.bat
+tally-server   
+ ├── tally-server.py   
+ ├── tally-server_with_dns.py  #
  └── README.md
 ```
